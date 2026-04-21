@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>徐冰的个人网页</title>
+</head>
+<style>
+    body {
+        height: 2000px;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+    }
+    .back-top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background-color: #457b9d;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 50%;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        transition: all 0.3s;
+    }
+    .back-top:hover {
+        background-color: #1d3557;
+        transform: scale(1.1);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    h3{
+        color: pink;
+    }
+    .box{
+        color: #6d1a1a;
+        background-color: #fff;
+    }
+    .box:hover{
+        color: #3f0ecf;
+        background-color: #070707;
+    }
+    #pig{
+        color: #457b9d;
+    }
+    table {
+        margin: 20px 0;
+        border-collapse: collapse;
+        width: 300px;
+    }
+    th, td {
+        border: 1px solid #333;
+        padding: 8px 12px;
+        text-align: center;
+    }
+</style>
+<body>
+    <h1 id="top">Hello 鸡冰</h1>
+    <h2 style="color: red;">鸡</h2>
+    <h3 class="box">冰</h3>
+    <h4>是</h4>
+    <h5 id="pig">猪</h5>
+    <h6>牛</h6>
+
+    <table>
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>爱好</th>
+        </tr>
+        <tr>
+            <td>鸡冰</td>
+            <td>18</td>
+            <td><a href="https://pvp.qq.com/" target="_blank">王者荣耀</a></td>
+        </tr>
+        <tr>
+            <td>徐冰</td>
+            <td>20</td>
+            <td><a href="https://xz.nanjyiyun.com/wwqy.html" target="_blank">无畏契约</a></td>
+        </tr>
+    </table>
+
+    <p><a href="#pig">点击跳转到页面中的“猪”标题</a></p>
+    <p>徐冰是猪牛 <br>徐冰是猪</p>
+
+    <!-- 我帮你把图片注释掉了，因为你没有上传图片，上传后再打开就行 -->
+    <!--
+    <a href="#top">
+        <img src="happy.jpg" alt="幸福" width="250">
+    </a>
+    -->
+
+    <a href="#top" class="back-top">↑</a>
+</body>
+</html>
